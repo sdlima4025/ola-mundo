@@ -7,6 +7,7 @@ export default function Inicio () {
       <Banner/>
 
       <h1>Olá Mundo!</h1>
+      
     </main>
   )
 }
