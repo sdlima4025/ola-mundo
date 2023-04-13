@@ -12,7 +12,7 @@ export default function Banner() {
           <p className={styles.paragrafo}>
           Boas vindas ao meu espaço pessoal! Eu sou Sérgio Lima, 
           aluno Front-end da Alura. 
-          Aqui compartilho vários conhecimentos, espero que aprenda algo novo juntos :)
+          Aqui compartilho vários conhecimentos, espero que aprendamos algo novo juntos :)
           </p>
         </div>
 
