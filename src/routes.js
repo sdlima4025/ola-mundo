@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Inicio from "./paginas/Inicio";
+import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim/index';
 import Menu from "./componentes/Menu";
 import Rodape from "componentes/Rodape";
 import PaginaPadrao from "componentes/PaginaPadrao";
 import Post from "paginas/Post";
+import NaoEncontrada from "paginas/NaoEncontrada";
 
 
 
@@ -23,7 +24,7 @@ function AppRoutes() {
       </Route>
 
 
-        <Route path="*" element = {<div>Página não encontrada!</div>}/>
+        <Route path="*" element = {<NaoEncontrada/>}/>
       </Routes>
 
     <Rodape/>
