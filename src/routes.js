@@ -14,23 +14,22 @@ import ScrollToTop from "componentes/ScrollToTop";
 function AppRoutes() {
   return (
     <BrowserRouter>
-    <ScrollToTop/>
-    <Menu/>
+      <ScrollToTop />
+      <Menu />
 
-    
       <Routes>
-        <Route path="/" element={<PaginaPadrao/>}>
-        <Route index element = {<Inicio/>}/>
-        <Route path="SobreMim" element = {<SobreMim/>}/>
-      </Route>
+        <Route path="/" element={<PaginaPadrao />}>
+          <Route index element={<Inicio />} />
+          <Route path="SobreMim" element={<SobreMim />} />
+        </Route>
 
-        <Route path="posts/:id/*" element={<Post/>} />
-        <Route path="*" element = {<NaoEncontrada/>}/>
+        <Route path="posts/:id/*" element={<Post />} />
+        <Route path="*" element={<NaoEncontrada />} />
       </Routes>
 
-    <Rodape/>
+      <Rodape />
     </BrowserRouter>
-  ); 
+  );
 }
 
 export default AppRoutes;
