@@ -21,8 +21,8 @@ function AppRoutes() {
         <Route index element = {<Inicio/>}/>
         <Route path="SobreMim" element = {<SobreMim/>}/>
       </Route>
-      
-        <Route path="posts/:id" element={<Post/>} />
+
+        <Route path="posts/:id/*" element={<Post/>} />
         <Route path="*" element = {<NaoEncontrada/>}/>
       </Routes>
 

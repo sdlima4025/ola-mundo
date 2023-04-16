@@ -37,6 +37,8 @@ export default function SobreMim () {
       possamos compartilhar conhecimento e fomentar o aprendizado para pessoas de baixa renda. Aprenda bastante!
       </p>
 
+      
+
     </PostModelo>
   );
 }
